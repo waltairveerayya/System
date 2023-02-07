@@ -121,7 +121,7 @@ mount /dev/nvme0n1p1 /mnt/boot
 swapon /dev/nvme0n1p2
 ```
 
-**9) Install Arch linux base and vim packages**
+**9) Install Arch linux base and required packages**
 ```
 pacstrap -i /mnt base vim linux linux-firmware linux-headers base-devel \
 efibootmgr mtools dosfstools openssh iwd ntfs-3g amd-ucode xf86-video-amdgpu \

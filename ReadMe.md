@@ -139,7 +139,7 @@ cp /etc/systemd/network/* /mnt/etc/systemd/network
 arch-chroot /mnt
 ```
 
-**12) Set the timezone**
+**12) Set timezone**
 ```
 ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
 ```
@@ -161,7 +161,7 @@ Add the below line with your locale info
 LANG=en_US.UTF-8
 ```
 
-**15) Set your hostname**
+**15) Set hostname**
 ```
 vim /etc/hostname
 ```
@@ -170,7 +170,7 @@ Add something like below line
 waltair
 ```
 
-**16) Set your hosts**
+**16) Set hosts**
 ```
 vim /etc/hosts
 ```
@@ -316,7 +316,7 @@ reboot
 
 ```
 
-**26) Installing required packages**
+**26) Installing other required packages**
 ```
 yay -S visual-studio-code-bin android-studio intellij-idea-community-edition pycharm-community-edition \
 onlyoffice-bin libvirt virtualbox virtualbox-ext-vnc virtualbox-guest-iso virtualbox-guest-utils \

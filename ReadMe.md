@@ -319,6 +319,5 @@ reboot
 **26) Installing other required packages**
 ```
 yay -S visual-studio-code-bin android-studio intellij-idea-community-edition pycharm-community-edition \
-onlyoffice-bin libvirt virtualbox virtualbox-ext-vnc virtualbox-guest-iso virtualbox-guest-utils \
-virtualbox-host-dkms teamviewer google-chrome brave-bin etcher-bin
+onlyoffice-bin google-chrome brave-bin etcher-bin
 ```
